@@ -1,0 +1,59 @@
+/* Department.css */
+.department-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .employee-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .employee-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+  }
+  
+  .employee-card h3 {
+    font-size: 20px;
+    margin: 0 0 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .edit-button,
+  .delete-button,
+  .close-button {
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: background-color 0.2s;
+  }
+  
+  .edit-button:hover,
+  .delete-button:hover,
+  .close-button:hover {
+    background-color: #0056b3;
+  }
+  
